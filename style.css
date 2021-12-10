@@ -220,7 +220,7 @@ ul{
     color: #FFFFFF;
 }
 
-.navigation{
+.navigation {
     display: flex;
     margin-top: 50px;
     margin-left: 50px;
@@ -228,14 +228,20 @@ ul{
     column-gap: 1fr 1fr;
 }
 
-.navigation-list{
+.navigation a,
+.navigation a:visited
+.navigation a:active {
+  color: inherit;
+}
+
+.navigation-list {
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0px;
 }
 
-.navi-item{
+.navi-item {
     display: block;
     margin: 0;
     padding-left: 10px;

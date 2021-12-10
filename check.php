@@ -9,5 +9,5 @@
     $mysql->query("INSERT INTO `users` (`login`, `password`, `name`) VALUES('$user_name','$inst_name','$password')"); #отправка данных в бд
     $mysql->close(); #закрытие бд
 
-    header('Location: https://vk.com/im'); #переадресация
+    header('Location: /'); #переадресация
 ?>

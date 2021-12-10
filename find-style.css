@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Main-font"; 
+    src: url(fonts/Main-font.ttf) format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+} 
+
+*{
+    font-family: Main-font;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, .4) url(Image/background_Img1.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+}
+
+.log-in {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+    width: 600px;
+    height: 90px; 
+}
+
+.log-in p {
+    margin-top: -10px;
+    position: absolute;
+    right: 20%;
+    font-size: 40px;
+    color: #FFFFFF;
+    
+}
+
+.find-lk {
+    margin: 0;
+    width: 3%;
+    position: absolute;
+    top: 10%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.finder {
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+.eye {
+    position: absolute;
+    top: -13%;
+    left: -15%;
+}
+
+.search-box{
+    margin: 0;
+    width: 400px;
+    height: 50px;
+    margin-right: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+}
+
+.selector {
+    margin: 0;
+    width: 200px;
+    height: 50px;
+    background: rgba(196, 196, 196, 0);
+    color: #ffffff;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 60px;
+    
+}
+
+.selector:focus { 
+    color: black;
+}
+
+.biblo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 85%;
+    padding: 3em;
+    column-count: 6;
+    justify-content: center;
+}
+
+.biblo img {
+    margin: 0;
+    display: flex;
+    height: 230px;
+    width: 190px;
+    padding-bottom: 25px;
+}
+
+.left-line-main-text {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    background-color: white;
+    width: 3px;
+    height: 700px;
+}
+
+.right-line-main-text {
+    position: absolute;
+    top: 20%;
+    left: 97%;
+    background-color: white;
+    width: 3px;
+    height: 700px;
+}
