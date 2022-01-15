@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "Main-font"; 
+    src: url(fonts/Main-font.ttf) format("truetype"); 
+    font-style: normal;
+    font-weight: normal;
+} 
+
+*{
+    font-family: Main-font;
+    color: #FFFFFF; 
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, .4) url(Image/background_Img1.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+}
+
+.log-in {
+    position: absolute;
+    top: 6%;
+    left: -3%;
+    width: 600px;
+    height: 90px; 
+}
+.navigation p {
+    margin-top: -10px;
+    position: absolute;
+    right: 20%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.find-lk {
+    margin: 0;
+    width: 3%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.main-back {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+    width: 10%; 
+}
+
+.books {
+    position: absolute;
+    right: 0%;
+    top: 6%;
+    width: 20%;
+}
+
+.books p {
+    font-size: 25px;
+    text-align: end;
+}
+
+.underline-books {
+    position: absolute;
+    right: 4%;
+    top: 12%;
+    background-color: white;
+    width: 230px;
+    height: 3px;
+}
+
+.underline-books-center {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    background-color: white;
+    width: 88%;
+    height: 3px;
+}
+
+.underline-books-end {
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    background-color: white;
+    width: 88%;
+    height: 3px;
+}
+
+.rent-books {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.book-list {
+    position: absolute;
+    top: 1em;
+    left: 8em;
+    display: flex;
+}
+
+.images {
+    width: 200px;
+    height: 250px;
+    margin-right: 40px;
+}
+
+.arrows {
+    position: absolute;
+    top: 7em;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-top: 7px solid #FFFFFF;
+    border-right: 7px solid #FFFFFF;
+    margin-right: 60px;
+    transform: rotate(-135deg);
+    left: 4em;
+}
+
+.arrow-right {
+    width: 30px;
+    height: 30px;
+    border-top: 7px solid #FFFFFF;
+    border-right: 7px solid #FFFFFF;
+    margin-right: 60px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 106em;
+}
+
+.header {
+    position: absolute;
+    font-size: 24px;
+    left: 5%;
+    top: 15%;
+}
+
+.header-1 {
+    position: absolute;
+    font-size: 24px;
+    left: 5%;
+    top: 50%;
+}
+
+.date-books {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.dates {
+    position: absolute;
+    left: 6em;
+    top: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    margin-bottom: -1em;
+    width: 100em;
+    display: flex;
+}
+
+.rec {
+    position: absolute;
+    top: 2em;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 40%;
+    background: rgba(196, 196, 196, 0.29);
+    border-radius: 3px;
+}
+
+.rec-1 {
+    position: absolute;
+    top: 5em;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 40%;
+    background: rgba(196, 196, 196, 0.29);
+    border-radius: 3px;
+}
+
+.dates p {
+    font-size: 20px;    
+}

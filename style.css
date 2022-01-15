@@ -16,7 +16,6 @@
 }
 
 header {
-    
     position: relative;
     align-content: flex-start;
 }
@@ -182,6 +181,32 @@ h2{
     cursor: default;
 }
 
+.in-window{
+    display: none;
+}
+
+.in-window:target {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-window .close::before {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0,.75);
+    content: "";
+    cursor: default;
+}
+
 .submit-button {
     margin-top: 70px;
     width: 70%;
@@ -198,6 +223,19 @@ h2{
 }
 
 input[type=text] {
+    width: 65%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-family: Main-font;
+    text-align: center;
+    
+}
+
+input[type=password] {
     width: 65%;
     box-sizing: border-box;
     padding: 12px 20px;

@@ -7,6 +7,7 @@
 
 *{
     font-family: Main-font;
+    color: #ffffff;
 }
 
 body {
@@ -15,6 +16,12 @@ body {
     background: rgba(0, 0, 0, .4) url(Image/background_Img1.jpg) no-repeat;
     background-blend-mode: darken;
     background-size: 100%;
+}
+
+.navigation a,
+.navigation a:visited
+.navigation a:active {
+  color: inherit;
 }
 
 .log-in {
@@ -32,6 +39,14 @@ body {
     font-size: 40px;
     color: #FFFFFF;
     
+}
+
+.main-back {
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    width: 10%; 
 }
 
 .find-lk {
@@ -74,7 +89,6 @@ body {
     width: 200px;
     height: 50px;
     background: rgba(196, 196, 196, 0);
-    color: #ffffff;
     text-align: center;
     border: 2px solid white;
     border-radius: 60px;
